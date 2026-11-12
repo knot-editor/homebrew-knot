@@ -4,9 +4,11 @@ Nightly builds of [Knot](https://github.com/knot-editor/knot-editor) for Apple S
 
 ```
 brew tap knot-editor/knot
+brew trust knot-editor/knot
 brew install --cask knot@nightly
 ```
 
-`brew upgrade --cask knot@nightly` follows later nightlies. The cask is
+Homebrew refuses to load casks from a tap you have not trusted, so `brew trust`
+is a one-time step. `brew upgrade --cask knot@nightly` follows later nightlies. The cask is
 generated and pushed by the nightly workflow in the Knot repository; do not
 edit `Casks/` by hand.
