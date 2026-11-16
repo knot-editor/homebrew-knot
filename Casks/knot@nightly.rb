@@ -1,8 +1,8 @@
 cask "knot@nightly" do
-  version "nightly.20261115.0049"
-  sha256 "aa2fbb2fdac80152ea4721175b9baf659be981361d10bd1abad20f334c2cca8c"
+  version "nightly.20261116.1201"
+  sha256 "1ef31692fa0dd00f33f80b4dbdd8da373767e0f703a5b40e913f32baf222e274"
 
-  url "https://github.com/knot-editor/knot-editor/releases/download/nightly-20261115-0049/Knot-#{version}-macos-arm64.zip"
+  url "https://github.com/knot-editor/knot-editor/releases/download/nightly-20261116-1201/Knot-#{version}-macos-arm64.zip"
   name "Knot"
   desc "Modern text editor inspired by Emacs"
   homepage "https://github.com/knot-editor/knot-editor"
